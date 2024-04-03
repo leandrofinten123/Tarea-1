@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor__1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor__2{
+    width: 16%;
+    border: 3px solid black;
+    height: 48vh;
+    background-color: orange;
+    border-radius: 17px;
+}
+
+.pikachu{
+    border: 3px solid black;
+    width: 61%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: red;
+}
+main{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 85%;
+    text-align: start;
+    font-weight: bold;
+    margin: 25px;
+}
+
+header {
+    margin-top: -20px;
+}
+img:hover{
+    transform: scale(1.2);
+}
